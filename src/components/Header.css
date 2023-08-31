@@ -1,0 +1,16 @@
+
+.main-header{
+    justify-content: space-between;
+}
+
+.cart span {
+    margin: 10px 20px;
+}
+
+.cart {
+    display: flex;
+}
+
+#search {
+    width: 50vw;
+}
