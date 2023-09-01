@@ -1,6 +1,7 @@
-
-.main-header{
+.main-header {
     justify-content: space-between;
+    background-color: mediumpurple;
+    padding: 10px;
 }
 
 .cart span {
@@ -11,13 +12,36 @@
 .cart {
     display: flex;
 }
+.scart:hover{
+    
+    text-shadow: 3px 3px 5px gray;
+}
+.locate:hover{
+    text-shadow: 3px 3px 5px gray;
+}
+.user:hover{
+    text-shadow: 3px 3px 5px gray;
+}
 
 #search {
     width: 50vw;
 }
-.menu{
+
+.menu {
     position: absolute;
-    right: 15px;
+    right: 19px;
     top: 55px;
+    cursor: context-menu;
+    background: lightsteelblue;
+
+
+}
+
+ul {
+    list-style-type: none;
+    color: black;
+    padding: 15px;
+    margin: 0 15px;
+
 
 }

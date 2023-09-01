@@ -38,9 +38,9 @@ export default function Header() {
                     <div className="cart">
 
                         <input id="search" className="form-control me-2" type="search" placeholder="Search Here" aria-label="Search" />
-                        <span><i class="fa-solid fa-cart-shopping"></i></span>
-                        <span><i class="fa-solid fa-location-dot"></i></span>
-                        <span><i class="fa-regular fa-user"></i></span>
+                        <span className="scart"><i class="fa-solid fa-cart-shopping"></i></span>
+                        <span className="locate"><i class="fa-solid fa-location-dot"></i></span>
+                        <span className="user"><i class="fa-regular fa-user"></i></span>
                         <span onClick={hideShow}><i class="fa-solid fa-bars"></i></span>
                     </div>
                  {isMenu && <div className="menu">
