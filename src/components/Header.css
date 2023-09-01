@@ -5,6 +5,7 @@
 
 .cart span {
     margin: 10px 20px;
+    cursor: pointer;
 }
 
 .cart {
@@ -13,4 +14,10 @@
 
 #search {
     width: 50vw;
+}
+.menu{
+    position: absolute;
+    right: 15px;
+    top: 55px;
+
 }

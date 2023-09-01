@@ -1,10 +1,30 @@
+
 import React from "react";
+import { useState } from "react";
 import './Header.css';
 
+import NavMenu from './NavMenu'
 
-import logo from '../images/logo.jpg'
+
+
 
 export default function Header() {
+
+    const [isMenu,setisMenu] = useState(false);
+
+
+
+    const hideShow = ()=>{
+        if(isMenu){
+            setisMenu(false);
+
+        }else{
+            setisMenu(true);
+        }
+        
+        
+
+    }
     return (
         <div className="main-header">
 
@@ -21,8 +41,17 @@ export default function Header() {
                         <span><i class="fa-solid fa-cart-shopping"></i></span>
                         <span><i class="fa-solid fa-location-dot"></i></span>
                         <span><i class="fa-regular fa-user"></i></span>
-                        <span><i class="fa-solid fa-bars"></i></span>
+                        <span onClick={hideShow}><i class="fa-solid fa-bars"></i></span>
                     </div>
+                 {isMenu && <div className="menu">
+                       
+                       <NavMenu/>
+                   </div>
+                   }
+                    
+                    
+
+                    
 
                 </div>
             </nav>
