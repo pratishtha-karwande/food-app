@@ -3,6 +3,7 @@ import React from "react";
 import { useState } from "react";
 import './Header.css';
 
+
 import NavMenu from './NavMenu'
 
 
@@ -28,10 +29,10 @@ export default function Header() {
     return (
         <div className="main-header">
 
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div className="container-fluid">
                     <div className="logo" id="navbarTogglerDemo01">
-                        <a className="navbar-brand" href="/">King Food</a>
+                        <img  src=" /weblogo/logo2.png" alt="" />
 
 
                     </div>

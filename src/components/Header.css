@@ -1,6 +1,6 @@
 .main-header {
     justify-content: space-between;
-    background-color: mediumpurple;
+    background-color: black;
     padding: 10px;
 }
 
@@ -30,9 +30,9 @@
 .menu {
     position: absolute;
     right: 19px;
-    top: 55px;
+    top: 140px;
     cursor: context-menu;
-    background: lightsteelblue;
+    background: lightsteelblue ;
 
 
 }
@@ -43,5 +43,11 @@ ul {
     padding: 15px;
     margin: 0 15px;
 
+}
 
+
+.logo img{
+    width: 100px;
+    height: ;
+     
 }
