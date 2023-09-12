@@ -7,6 +7,7 @@
 .cart span {
     margin: 10px 20px;
     cursor: pointer;
+    color: #fff;
 }
 
 .cart {
@@ -14,13 +15,13 @@
 }
 .scart:hover{
     
-    text-shadow: 3px 3px 5px gray;
+    text-shadow: 3px 3px 5px lightblue;
 }
 .locate:hover{
-    text-shadow: 3px 3px 5px gray;
+    text-shadow: 3px 3px 5px lightblue;
 }
 .user:hover{
-    text-shadow: 3px 3px 5px gray;
+    text-shadow: 3px 3px 5px lightblue;
 }
 
 #search {
@@ -45,9 +46,14 @@ ul {
 
 }
 
-
 .logo img{
     width: 100px;
-    height: ;
      
 }
+.pin-box{
+    padding: 4px;
+    margin-top: 15px;
+    width: 65%;
+}
+
+

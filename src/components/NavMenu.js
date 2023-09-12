@@ -1,19 +1,26 @@
-
+import { Link } from "react-router-dom";
 //sidebar menu
 import React from "react"
 
-const Menu = () => { 
-    return(
+const NavMenu = () => {
+    return (
 
-   <div>
-    <ul>
-    <li>Home</li>
-    <li>Menu</li>
-    <li>About Us</li>
-    <li>Contact</li>
-    </ul>
-   </div>
+        <div>
+
+
+            <ul className="Menu-bar">
+                
+                <Link to="/">  <li>Home</li> </Link>
+                <Link to="/menu">  <li>Menu</li> </Link>
+                <Link to="/about">  <li>About Us</li> </Link>
+                <Link to="/contact">  <li>Contact Us</li> </Link>
+               
+
+               
+            </ul>
+
+        </div>
     );
-   
+
 }
-export default Menu; 
+export default NavMenu; 
